@@ -1,5 +1,7 @@
 package com.tw.apistackbase.controller;
 
+import com.tw.apistackbase.entity.Company;
+import com.tw.apistackbase.entity.Employee;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

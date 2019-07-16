@@ -1,7 +1,7 @@
 package com.tw.apistackbase;
 
-import com.tw.apistackbase.controller.Company;
-import com.tw.apistackbase.controller.Employee;
+import com.tw.apistackbase.entity.Company;
+import com.tw.apistackbase.entity.Employee;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.junit.Test;
