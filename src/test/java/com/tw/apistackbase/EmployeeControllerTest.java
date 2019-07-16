@@ -7,12 +7,12 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
-public class ApiStackBaseApplicationTests {
+public class EmployeeControllerTest {
 
-	@Test
-	public void contextLoads() {
-		
-	}
+    @Test
+    public void contextLoads() {
+
+    }
 
 
 }
