@@ -81,10 +81,23 @@ public class CompanyController {
                 value.setCompanyName(company.getCompanyName());
                 value.setEmployees(company.getEmployees());
                 value.setEmployeesNumber(company.getEmployeesNumber());
+                value.setEmployees(company.getEmployees());
                 return ResponseEntity.ok().body(value);
             }
         }
         return null;
+    }
+
+    @DeleteMapping("{companyId}")
+    public ResponseEntity delete(@PathVariable Integer companyId) {
+        initializationData();
+        for (Company value : companies) {
+            if (value.getCompanyId() == companyId) {
+                companies.remove(value);
+            }
+        }
+        return null;
+
     }
 
 }
